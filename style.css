@@ -1,0 +1,16 @@
+body{background:#0b0b0b;color:#fff;font-family:Arial}
+.container{max-width:700px;margin:auto;padding:20px}
+.tabs{display:flex;gap:10px;margin-bottom:20px}
+.tab{padding:10px 20px;background:#1a1a1a;border:none;border-radius:10px;color:#fff;cursor:pointer}
+.tab.active{background:#ff9900;color:#000;font-weight:bold}
+.card{background:#141414;padding:20px;border-radius:15px}
+.hidden{display:none}
+
+.select{background:#1a1a1a;padding:15px;border-radius:10px;cursor:pointer;border:1px solid #333}
+.variables{display:none;background:#111;margin-top:10px;border-radius:10px;max-height:200px;overflow:auto;border:1px solid #ff9900}
+.variables.active{display:block}
+.item{padding:12px;cursor:pointer}
+.item:hover{background:#ff9900;color:#000}
+
+input,select{width:100%;padding:12px;margin-top:10px;background:#1c1c1c;border:1px solid #333;color:#fff;border-radius:10px}
+button{margin-top:15px;padding:14px;background:#ff9900;border:none;border-radius:999px;font-weight:bold;cursor:pointer}
