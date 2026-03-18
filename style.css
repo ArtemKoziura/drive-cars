@@ -1,0 +1,12 @@
+body{
+background:#0b0b0b;
+color:#fff;
+font-family:Arial;
+}
+.container{max-width:600px;margin:auto;padding:20px}
+.select{background:#1a1a1a;padding:15px;border-radius:10px;cursor:pointer}
+.variables{display:none;background:#111;margin-top:10px;border-radius:10px;max-height:200px;overflow:auto}
+.variables.active{display:block}
+.item{padding:12px;cursor:pointer}
+.item:hover{background:#ff9900;color:#000}
+button{margin-top:20px;padding:15px;background:#ff9900;border:none;border-radius:999px;font-weight:bold}
