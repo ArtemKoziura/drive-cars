@@ -519,7 +519,7 @@ function calcUSA() {
   const unloadPort = 400;
   let deliveryKiev = 1400;
   const broker = 250;
-  const service = 500;
+  const service = 550;
   const button = 120;
   const clearance = getClearanceUSA(carPrice, auctionFee, yearRelease, engineCapacity, americaFuel);
   const priceSwift = (100 + (0.032 * (carPrice + auctionFee)));
